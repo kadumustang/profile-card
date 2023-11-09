@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.profile-card {
+    background-color: #19a1ad;
+    height: 100vh;
+    width: 100vw;  
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.profile-containor { 
+    width: 350px;
+    height: 350px;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.40) 0px, 10px, 20px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+}
+.social-media-metrix {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;  
+    margin-top: 18px;
+    border-top: 1px solid #D0D4CA
+}
+.circular-image{
+    border-radius: 50%;
+    position: absolute;
+    left: 35%;
+    top: 25%;
+    border: 5px solid white;
+}
+.background-image {
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.user-detail {
+    margin-top: 65px;
+    text-align: center;
+}
+.user-detail div:first-child {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.user-detail span {
+    font-weight: 100;
+    font-size: 20px;
+}
+.metrix {
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 12px;
+}
+.metrix div:first-child {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.metrix :nth-child(2) {
+    margin: 3px;
+    font-size: 15px;
+    font-weight: 100;
+    color: grey;
+}
+     
